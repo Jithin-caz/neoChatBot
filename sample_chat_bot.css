@@ -1,0 +1,110 @@
+#chatbox-container
+{
+    opacity: 0;
+    position: fixed;
+    right: 5dvw;
+    height:38.5dvw;
+    width:25.5dvw;
+    background:url('background\ chatbot\ neodawn.png');
+    background-size: cover;
+}
+.botGetter
+{
+    position: fixed;
+    top: 40dvw;
+    height: 5dvw;
+    width: 6dvw;
+    background: url('icons8-bot.gif');
+    background-size: cover;
+    border: none;
+    z-index: 3;
+    right: 2dvw;
+    padding-top: 6dvw;
+    font-size: 1.2dvw;
+    display: flex;
+    justify-content: center;
+}
+.chatbox {
+    position: absolute;
+    top: 2.5dvw;
+    right:0dvw;
+    width:25.5dvw;
+    height: 35.5dvw;
+    background:rgba(0, 0, 0, 0);
+    overflow-y: scroll;
+   font-size: 1.6dvw;
+    color: rgb(197, 3, 3);
+    display:flex;
+    box-shadow:.13dvw;
+    margin-left: 0dvw;
+    margin-right: 0dvw;
+    align-items: center;
+    justify-content: center;
+}
+.botresponse,.userResponse
+{
+    box-shadow: 3px 6px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.chat-close
+{
+    position:absolute;
+    top: 1dvw;
+    right: 1dvw;
+    background:url('Right\ Arrow\ neodawn.png');
+    background-size: cover;
+    background-position: center;
+    border: none;
+    height: 2dvw;
+    width: 3dvw;
+}
+.chat-close:hover
+{
+    height: 2.5dvw;
+    width: 3.5dvw;
+}
+::-webkit-scrollbar
+{
+    width: 0;
+}
+.input-send-container
+{
+    position:absolute;
+    top:37.5dvw;
+    width:25.5dvw;
+    height: 2.9dvw;
+    background: rgb(255, 255, 255);
+    display:flex;
+    justify-content:stretch;
+}
+#userInput{
+    position: absolute;
+    top:.1dvw;
+    border: none;
+    border-radius: 0;
+    width: 22dvw;
+    height: 2.5dvw;
+    background: rgb(235, 235, 235);
+    font-size: 1.3dvw;
+}
+#userInput:focus
+{
+    outline: none;
+}
+.send-button
+{
+    position: absolute;
+    top:.1dvw;
+    z-index: 3;
+    right:0dvw;
+    background-size:3dvw 2.6dvw !important;
+    background-position: center;
+    border: none;
+    height: 2.5dvw;
+    width: 2.9dvw;
+    border: none;
+}
+.sa
+{
+    position: absolute;
+    top: 2000px;
+}
